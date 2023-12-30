@@ -2,18 +2,16 @@ public class Training {
     private static int add(int n1, int n2) {
         return n1 + n2;
     }
-    private static int subtract(int n1, int n2) {
+    public static int subtract(int n1, int n2) {
         return n1 - n2;
     }
-    private static int multiplication(int n1, int n2) {
+    public static int multiplication(int n1, int n2) {
         return n1 * n2;
     }
-    private static int division(int n1, int n2) {
+    public static int division(int n1, int n2) {
         return n1 / n2;
     }
-    private static String names(String str) {
-        return  "Lukassss";
-    }
+
     public static void main(String[] args) {
         String name = "Luka";
         String lastName = "Guledani";
@@ -32,10 +30,6 @@ public class Training {
 
         int division = division(20, 10);
         System.out.println(division);
-
-        String nam = names("");
-        System.out.println(nam);
-
     }
 }
 
